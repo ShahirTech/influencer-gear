@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    color: rgb(58, 58, 58);
+    font-weight: 700;
+    font-style: normal;
+  }
+ 
+.flex{
+    display: flex;
+}
+.bar{
+    display: none;
+  }
+  /* header */
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+    height: 46px;
+    margin-top: 90px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .head{
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .nav-link{
+    color: rgb(58, 58, 58);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 0 10px;
+    padding-right: 10px;
+  }
+  .nav-item{
+    list-style: none;
+  }
+  .nav-links{
+    width: 457px;
+    gap: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    justify-content:space-between;
+    align-items: center;
+    padding: 4px;
+  }
+  ul>i{
+    font-size: 1.5rem;
+  }
+  .banner-container{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+}
+  .banner-image{
+    height: 475px;
+    width: 475px;
+    background-image: url("images/Circle\ design.svg");
+    background-size: cover;
+  }
+  .banner-image img{
+    width: 440px;
+    height: 414px;
+    padding: 30px 33px 31px 2px;
+  }
+  .banner-description{
+    width: 582px;
+    text-align: start;
+  }
+  .banner-description h1{
+    font-weight: 700;
+    font-size: 3.25rem;
+    margin-bottom: 0;
+  }
+  .banner-description p, .banner-description button{
+    margin-top: 16px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .banner-description button{
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    width: 196px;
+    height: 44px;
+    color: rgb(255, 255, 255);
+  }
+  section{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .brand-logos{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    justify-items: center;
+    width: 1110px;
+    height: 110px;
+  }
+.fetured{
+    width: 1110px;
+    height: 270px;
+    justify-content:space-between;
+}
+.feature-description{
+    width: 610px;
+    text-align: left;
+}
+.feature-description p{
+    width: 500px;
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.feature-description h2{
+    font-size: 2.375rem;
+    color: rgb(10, 8, 38);
+    margin-bottom: 16px;
+}
+.feature-description button{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 155px;
+    height: 44px;
+    background: rgb(224, 44, 109);
+    padding: 10px 24px 10px 24px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    white-space: nowrap;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+    background: rgb(10, 8, 38);
+    width: 100%;
+}
+footer>div{
+    width: 290px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer> div> h1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+footer> div> p{
+    color: white;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+}
+.social{
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.social i{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   background: rgb(255, 255, 255, 0.1);
+   color: aliceblue;
+}
+.popular{
+    width: 1050px;
+    /* border: 5px solid rgb(224, 44, 109); */
+    text-align: center;
+}
+.popular> h1{
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.cards{
+    height: 476px;
+    width: 329px;
+    /* border: 5px solid hotpink; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    text-align: left;
+    padding-bottom: 8px;
+}
+.cards img {
+    width: 300px;
+    height: 252px;
+    padding: 17px 15px 17px 14px;
+}
+.cards h3 {
+    margin-top: 0;
+    font-size: 1.75rem;
+    font-weight: 500;
+    padding-left: 14px;
+}
+.stars {
+    font-size: .75rem;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    padding-left: 14px;
+}
+.stars i {
+   color: rgb(251, 130, 0);
+}
+
+.cp {
+    color: rgb(120, 120, 133);
+    font-size: .875rem;
+    font-weight: 700;
+    width: 226px;
+    padding-left: 14px;
+}
+.price{
+    margin-top: -25px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Inter", sans-serif;
+    padding-left: 14px;
+}
+@media screen and (min-width:359px) and (max-width: 426px) {
+    /* *{
+        border: 2px solid red;
+    }
+    body{
+        border: 5px dashed green;
+        background-color: yellowgreen;
+    } */
+    .banner-container, .fetured{
+        flex-direction: column-reverse;
+        align-items: center;
+        max-width: 360px;
+        margin: 0 auto;
+        /* border: 5px solid black; */
+    }
+    .fetured {
+      gap: 40px;
+    }
+    .banner-description{
+      width: 360px;
+      height: 222px;
+    }
+    .banner-image{
+      margin-top: 50px;
+      width: 257px;
+      height: 257px;
+    }
+    .banner-image img{
+      width: 202px;
+      height: 196px;
+      padding: 51px 33px 16px 22px;
+    }
+    .nav-links{
+      display: none;
+    }
+    .navbar{
+      /* border:  5px solid red; */
+      width: 100%;
+      margin: 0;
+    }
+    .bar{
+      display: block;
+    }
+    .head{
+      width: 162px;
+      /* white-space: nowrap; */
+      font-size: 1rem;
+      font-weight: 700;
+      /* border: 5px solid fuchsia; */
+    }
+    .banner-description h1, .feature-description h2{
+      font-size: 1.75rem;
+    }
+    .brand-logos, .fetured, .popular{
+      width: 360px;
+    }
+    .feature-description, .banner-description, .feature-description p{
+      width: 360px;
+      /* border: 5px solid goldenrod; */
+      text-align: center;
+    }
+    .feature-description button, .banner-description button{
+      margin: auto;
+    }
+    .fetured img{
+      width: 299px;
+      height: 188px;
+    }
+    .card{
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+    .brand-logos{
+      margin-top: 100px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      /* border: 5px solid aqua; */
+      justify-content: center;
+    }
+    .brand-logos img{
+      width: 70%;
+    }
+    .popular{
+      margin-bottom: 400px;
+    }
+    
+}
+
