@@ -103,7 +103,7 @@
   }
   .brand-logos{
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
     justify-items: center;
     width: 1110px;
@@ -244,6 +244,11 @@ footer> div> p{
     font-family: "Inter", sans-serif;
     padding-left: 14px;
 }
+.logos-flex{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
 @media screen and (min-width:359px) and (max-width: 426px) {
     /* *{
         border: 2px solid red;
@@ -286,6 +291,7 @@ footer> div> p{
     }
     .bar{
       display: block;
+      font-size: x-large;
     }
     .head{
       width: 162px;
@@ -301,7 +307,7 @@ footer> div> p{
       width: 360px;
     }
     .feature-description, .banner-description, .feature-description p{
-      width: 360px;
+      width: 350px;
       /* border: 5px solid goldenrod; */
       text-align: center;
     }
@@ -320,10 +326,13 @@ footer> div> p{
       margin-top: 100px;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       /* border: 5px solid aqua; */
-      justify-content: center;
+      justify-items: center;
     }
     .brand-logos img{
       width: 70%;
+    }
+    .logos-flex{
+  padding-left: 20px;
     }
     .popular{
       margin-bottom: 400px;
