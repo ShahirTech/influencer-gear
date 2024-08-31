@@ -55,11 +55,9 @@
   }
   .banner-container{
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
     justify-content: space-between;
     align-items: center;
-    width: 1300px;
+    width: 85%;
 }
   .banner-image{
     height: 475px;
@@ -96,30 +94,29 @@
     height: 44px;
     color: rgb(255, 255, 255);
   }
-  section{
-    margin-top: 100px;
+  section {
+    margin-top: 130px;
     margin-left: auto;
     margin-right: auto;
   }
   .brand-logos{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     align-items: center;
     justify-items: center;
-    width: 1110px;
-    height: 110px;
+    width: 85%;
   }
 .fetured{
-    width: 1110px;
+    width: 85%;
     height: 270px;
-    justify-content:space-between;
+    gap: 100px;
 }
 .feature-description{
     width: 610px;
     text-align: left;
+    
 }
 .feature-description p{
-    width: 500px;
     color: rgb(108, 108, 108);
     font-size: 1rem;
     font-weight: 700;
@@ -182,9 +179,9 @@ footer> div> p{
    color: aliceblue;
 }
 .popular{
-    width: 1050px;
-    /* border: 5px solid rgb(224, 44, 109); */
+    width: 85%;
     text-align: center;
+    
 }
 .popular> h1{
     font-size: 1.75rem;
@@ -193,22 +190,23 @@ footer> div> p{
 .card{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
     gap: 30px;
 }
 .cards{
-    height: 476px;
-    width: 329px;
-    /* border: 5px solid hotpink; */
     border-radius: 5px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     background: rgb(255, 255, 255);
     text-align: left;
     padding-bottom: 8px;
+    width: 90%;
 }
 .cards img {
-    width: 300px;
-    height: 252px;
+    width: 90%;
     padding: 17px 15px 17px 14px;
+    margin-left:auto;
+    margin-right: auto;
 }
 .cards h3 {
     margin-top: 0;
@@ -245,7 +243,7 @@ footer> div> p{
     padding-left: 14px;
 }
 .logos-flex{
-  display: flex;
+  display:none ;
   justify-content: space-between;
   gap: 50px;
 }
@@ -304,10 +302,10 @@ footer> div> p{
       font-size: 1.75rem;
     }
     .brand-logos, .fetured, .popular{
-      width: 360px;
+      width: 100%;
     }
     .feature-description, .banner-description, .feature-description p{
-      width: 350px;
+      width: 100%;
       /* border: 5px solid goldenrod; */
       text-align: center;
     }
