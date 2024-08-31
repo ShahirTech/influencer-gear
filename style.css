@@ -242,7 +242,7 @@ footer> div> p{
     font-family: "Inter", sans-serif;
     padding-left: 14px;
 }
-@media screen and (min-width:350px) and (max-width: 426px) {
+@media screen and (min-width:350px) and (max-width: 576px) {
     /* *{
         border: 2px solid red;
     }
@@ -330,7 +330,8 @@ footer> div> p{
       margin-bottom: 400px;
     }
     #rakuten, #walmart, #target{
-      padding-left: 100px;
+      padding-left: 87px;
     }
     
 
+  }
