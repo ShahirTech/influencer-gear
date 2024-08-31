@@ -242,11 +242,6 @@ footer> div> p{
     font-family: "Inter", sans-serif;
     padding-left: 14px;
 }
-.logos-flex{
-  display:none ;
-  justify-content: space-between;
-  gap: 50px;
-}
 @media screen and (min-width:350px) and (max-width: 426px) {
     /* *{
         border: 2px solid red;
@@ -331,13 +326,11 @@ footer> div> p{
       width: 70%;
       padding-top: 24px;
     }
-    .logos-flex{
-      display: none;
-  padding-left: 20px;
-    }
     .popular{
       margin-bottom: 400px;
     }
+    #rakuten, #walmart, #target{
+      padding-left: 100px;
+    }
     
-}
 
